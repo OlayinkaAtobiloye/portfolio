@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 53px;
+  padding-right: 50px;
+  background-color: #d7d7d7;
+}
+header > nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60%;
+  position: relative;
+  z-index: 10;
+}
+nav li {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+p.hello {
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  color: #000000;
+  margin-bottom: 54px;
+}
+p.name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 94px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+p.role {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+  color: #919191;
+}
+
+section.Introduction {
+  background-color: #d7d7d7;
+  width: 50%;
+  height: 100vh;
+  padding-top: 30vh;
+  padding-left: 10vw;
+  position: relative;
+  top: -60px;
+  margin-bottom: 150px;
+}
+div.background {
+  background: url(assets/3G4A3736-min.jpg) #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  transform: rotate(5deg);
+  top: 0px;
+  right: 0px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+p.about {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.3554em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+p.details {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+section.skills {
+  display: flex;
+  padding-left: 5vw;
+  justify-content: space-between;
+  padding-right: 5vw;
+}
+
+p.skillset {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1854em;
+  text-transform: uppercase;
+}
+p.skilldetails {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-bottom: 60px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+footer {
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.contact a {
+  font-weight: bold;
+}
+
+
