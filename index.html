@@ -1,66 +1,172 @@
 <!DOCTYPE html>
+<!--#181719-->
+
 <head>
-<title>Olayinka's Portfolio</title>
-<meta charset='utf-8'>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name='description' content="">
-<link href="style.css" type="text/css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Nunito&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content="A portfolio page. Design inspiration from DevChallenges">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="assets/mypicture.jpg" rel="icon" type="img/icon">
 </head>
 
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="contact">Contact Me</a></li>
-        </ul>
-    </nav>
-</header>
+    <div class="Container">
+        <section class="Me">
+            <img src="assets/mypicture.jpg" alt="Olayinka Atobiloye" class="Me">
+            <div>
+                <div class="Title">
+                    <h1>Olayinka Atobiloye</h1>
+                    <p>Frontend Developer, Data Scientist, & Technical Writer</p>
+                </div>
+                <div class="Contact">
+                    <p><a href="mailto:hiqmatolayinka@gmail.com">hiqmatolayinka@gmail.com</a></p>
+                    <p>(+234)9076764199</p>
+                </div>
+            </div>
+            <div class="About">
+                <p>Hi there! </p>
+                <p>I'm Olayinka, a Software Engineer and Data Scientist. I love creating and building accessible
+                    and mind-blowing technologies. In my free time, I write articles to explain new concepts to others.
+                    <br>
+                    I enjoy building new products; If you have an exciting product, I'm open to work on them!
+                </p>
+            </div>
+        </section>
+        <!--<div class="Container"> -->
+        <section class="Skills">
+            <h1>Skills</h1>
+            <h2>Here are some technologies I work with.</h2>
+            <p>Python </p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+            <p>SQL</p>
+            <p>React</p>
+            <p>Git and GitHub</p>
+        </section>
 
-<section class="Introduction">
-    <p class="hello">Hi, I am</p>
-    <p class="name">Olayinka</p>
-    <p class="role">Frontend Developer/ Technical Writer</p>
-</section>
-<div class="background">
-</div>
+        <section class="Hobbies">
+            <h1>Hobbies</h1>
+            <h2>When I'm not caught up in school work or working on a project, here are what I enjoy doing!</h2>
+            <div>
+                <img src="assets/reading.jpg">
+                <h3>Reading</h3>
+                <p>Nothing excites me more than the thought of picking up a new book to read!</p>
+            </div>
+            <div>
+                <img src="assets/movies.jpg">
+                <h3>Watching Movies</h3>
+                <p>Curling up on my bed while watching a movie or series is one of my favorite things to do!</p>
+            </div>
+            <div style="display: none;">
+                <h3>Listening To Music</h3>
+                <p>I enjoy listening to songs with message and inspiration, cause, who doesn't?</p>
+            </div>
+            <div>
+                <img src="assets/eating.jpg">
+                <h3>Eating</h3>
+                <p>Yeah, you caught me. I'm a big foodie!</p>
+            </div>
+        </section>
 
-<section class="about" id="about">
-    <p class="about">ABOUT ME</p>
-    <P class="details">I am an analytical and result driven individual with great team spirit, communication and organizational skills. My career objective is to add value to my employer through the use of my skills and knowledge in my chosen field while learning and growing as an individual. In this process, I believe it can be beneficial for both myself and my employer; hence I endeavor to work diligently until I reach the highest level of performance. The ultimate goal is to achieve success wherever I find myself. If I do not possess the right attitude in me, I will learn </P>
-</section>
+        <section class="Blog">
+            <h1>Blog</h1>
+            <div>
+                <img src="assets/importingdata.jpeg">
+                <h2>Importing Data From The Web Into Python</h2>
+                <p>A detailed article on how to import data from the web using some Python libraries.</p>
+                <a href="https://dev.to/olayinkaatobiloye/importing-data-from-the-web-into-python-3h0n">Read</a>
+            </div>
+            <div>
+                <img src="assets/deepdive.jpg">
+                <h2>A Deep Dive Into Machine Learning</h2>
+                <p>Machine learning is one of the latest buzzwords in tech. This field has experienced an uprising in
+                    the
+                    past few years. Learn about the nitty-gritty of getting started in machine learning in this article.
+                </p>
+                <a href="https://dev.to/olayinkaatobiloye/a-deep-dive-into-machine-learning-2c94">Read</a>
+            </div>
+        </section>
 
-<section id="skills">
-    <p class="about">SKILLS</p>
-<section class="skills">
-    <div>
-        <p class="skillset">Development</p>
-        <p class="skilldetails">I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.</p>
+        <section class="Projects">
+            <div class="Categories">
+                <h1>Projects</h1>
+                <p class="Color" id="WebDesign">Responsive</p>
+                <p id="CaseStudies">Case Studies</p>
+            </div>
+
+            <div class="CaseStudies">
+                <div>
+                    <h2>Dr. Semmelweis and the Discovery of Handwashing</h2>
+                    <p>In this Data Science case study, I reanalyzed the data behind one of the most important
+                        discoveries
+                        of modern medicine: handwashing.</p>
+                    <a href="https://github.com/OlayinkaAtobiloye/Dr.-Semmelweis-and-the-Discovery-of-Handwashing"
+                        target="_blank">Code</a>
+                </div>
+                <div>
+                    <h2>Generating Keywords For Google Ads</h2>
+                    <p>In this project, I created a Python script that automatically generate keywords for a search
+                        engine marketing campaign.</p>
+                    <a href="https://github.com/OlayinkaAtobiloye/Generating-Keywords-For-Google-Ads"
+                        target="_blank">Code</a>
+                </div>
+                <div>
+                    <h2>Name Game Gender Prediction using Sound</h2>
+                    <p>In this Data Science case study, I analyzed the gender distribution of children's book writers and
+                        used sound to match names to gender.</p>
+                    <a href="https://github.com/OlayinkaAtobiloye/Dr.-Semmelweis-and-the-Discovery-of-Handwashing"
+                        target="_blank">Code</a>
+                </div>
+            </div>
+
+            <div class="WebDesign">
+                <div>
+                    <img src="assets/recipe.jpg">
+                    <h2>Recipe Blog</h2>
+                    <p>In this project, I work with HTML and CSS to create a responsive recipe blog page. The design is
+                        from
+                        devchallenge.io</p>
+                    <a href="https://arecipepage.netlify.app/" target="_blank">Demo</a>
+                    <a href="https://github.com/OlayinkaAtobiloye/DevChallenges/tree/recipe-page"
+                        target="_blank">Code</a>
+                </div>
+                <div>
+                    <img src="assets/gallery.jpg">
+                    <h2>My Gallery</h2>
+                    <p>In this project, I work with HTML and CSS to create a web page similiar to instagram profile
+                        page.
+                        The design is from devchallenge.io</p>
+                    <a href="https://gallerypage.netlify.app/" target="_blank">Demo</a>
+                    <a href="https://github.com/OlayinkaAtobiloye/DevChallenges/tree/gallery-page"
+                        target="_blank">Code</a>
+                </div>
+                <div>
+                    <img src="assets/checkout.jpg">
+                    <h2>Checkout</h2>
+                    <p>In this project, I created a Checkout page for an online store. The design is from
+                        devchallenge.io
+                    </p>
+                    <a href="https://checkoutchallenge.netlify.app/" target="_blank">Demo</a>
+                    <a href="https://github.com/OlayinkaAtobiloye/DevChallenges/tree/checkout-page"
+                        target="_blank">Code</a>
+                </div>
+            </div>
+        </section>
+
+
     </div>
-
-    <div>
-        <p class="skillset">Content Writing</p>
-        <p class="skilldetails">I can write grammatically correct and unplagiarised quality content for your compan or organization/</p>
-    </div>
-</section>
-</section>
-
-<section class="contact" id="contact">
-    <p class="about">CONTACT</p>
-    <p class="details">Have a project you want us to work on? An exciting idea that might be the next big thing? Or an interesting product?
-        <a href="mailto:hiqmatolayinka@gmail.com">Send me an email</a>
-    </p>
-</section>
-
-<footer>
-    <p>@2021 Olayinka Atobiloye All Rights Reserved.</p>
-    <a href="https://twitter.com/symplyciel"><i class="fa fa-twitter"></i></a>
-    <a href="https://github.com/OlayinkaAtobiloye"><i class="fa fa-github"></i></a>
-    <a href="https://linkedin.com/in/OlayinkaAtobiloye"><i class="fa fa-linkedin"></i></a>
-</footer>
+    <footer>
+        Olayinka Atobiloye - All Rights Reserved.
+    </footer>
 </body>
+<script src="script.js"></script>
+
 </html>

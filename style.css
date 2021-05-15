@@ -1,156 +1,352 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  letter-spacing: 0px;
+  font-style: normal;
+  overflow-x: hidden;
 }
 body {
-  padding-top: 53px;
-  padding-right: 50px;
-  background-color: #d7d7d7;
+  background-color: #200e32;
+  padding: 32px 5vw 32px 5vw;
 }
-header > nav > ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 60%;
-  position: relative;
-  z-index: 10;
-}
-nav li {
-  font-family: Montserrat;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0em;
-  color: #ffffff;
-}
-p.hello {
-  font-family: Raleway;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 47px;
-  letter-spacing: 0em;
-  color: #000000;
-  margin-bottom: 54px;
-}
-p.name {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 80px;
-  line-height: 94px;
-  color: #000000;
-  margin-bottom: 32px;
-}
-
-p.role {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 25px;
-  line-height: 29px;
-  color: #919191;
-}
-
-section.Introduction {
-  background-color: #d7d7d7;
-  width: 50%;
-  height: 100vh;
-  padding-top: 30vh;
-  padding-left: 10vw;
-  position: relative;
-  top: -60px;
-  margin-bottom: 150px;
-}
-div.background {
-  background: url(assets/3G4A3736-min.jpg) #000000;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 50vw;
-  height: 100vh;
-  transform: rotate(5deg);
-  top: 0px;
-  right: 0px;
-}
-
-img {
-  width: 500px;
-  height: auto;
-}
-
-p.about {
-  font-family: Montserrat;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 38px;
-  letter-spacing: 0.3554em;
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-p.details {
-  font-family: Open Sans;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-section.skills {
-  display: flex;
-  padding-left: 5vw;
-  justify-content: space-between;
-  padding-right: 5vw;
-}
-
-p.skillset {
-  font-family: Montserrat;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 0.1854em;
-  text-transform: uppercase;
-}
-p.skilldetails {
-  font-family: Open Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 19px;
-  letter-spacing: 0em;
-  margin-bottom: 60px;
-}
-
 a {
-  color: inherit;
   text-decoration: none;
 }
-footer {
-  font-family: Nunito;
+Section.Projects div.CaseStudies {
+  display: none;
+}
+
+section.Me {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 16px 16px 16px;
+  overflow: auto;
+  margin-bottom: 32px;
+}
+section.Me > img.Me {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  float: left;
+  margin-right: 32px;
+}
+section.Me > div > div.Title > h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #4f4f4f;
+  margin-bottom: 6px;
+}
+section.Me > div > div.Title > p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #828282;
+}
+section.Me > div > div.Contact > p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #4f4f4f;
+  margin-bottom: 10px;
+}
+section.Me > div > div.Contact > p > a {
+  color: inherit;
+}
+section.Me > div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+section.Me > div.About {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #828282;
+  margin: 32px 0px 32px 0;
+}
+
+section.Skills {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 16px 16px 16px;
+  margin-bottom: 32px;
+}
+section.Skills > h1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+section.Skills > h2 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 5px;
+}
+section.Skills > p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #4f4f4f;
+  margin-bottom: 10px;
+}
+section.Hobbies {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 16px 16px 16px;
+  margin-bottom: 32px;
+}
+section.Hobbies > h1 {
+  color: #4f4f4f;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+section.Hobbies > h2 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 5px;
+}
+section.Hobbies > div {
+  margin-bottom: 32px;
+}
+section.Hobbies > div > img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+section.Hobbies > div > h3 {
+  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0em;
-  text-align: center;
-  background-color: #1a1a1a;
-  color: #ffffff;
-  height: 10vh;
-  width: 100vw;
+  font-weight: 600;
+  line-height: 22px;
+  color: #333333;
+}
+section.Hobbies > div > p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #828282;
+}
+section.Projects {
+  border-radius: 12px;
+  margin-bottom: 36px;
+}
+section.Projects > div.Categories {
+  padding: 16px;
+  display: block;
+  background: #ffffff;
+}
+section.Projects > div {
   display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+section.Projects > div.Categories > h1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #4f4f4f;
+  margin-bottom: 10px;
+}
+section.Projects > div.Categories > p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #4f4f4f;
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 33px;
+  width: 100px;
+  margin-right: 16px;
+}
+section.Projects > div.Categories > p:hover {
+  cursor: pointer;
+}
+section.Projects > div > div {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 12px;
+  width: 30%;
+}
+section.Projects > div > div > h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 18px;
+}
+section.Projects > div > div > img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+section.Projects > div > div > p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #828282;
+  margin-bottom: 40px;
+}
+section.Projects > div > div > a {
+  width: 100px;
+  height: 46px;
+  color: #2f80ed;
+  border-radius: 12px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
-section.contact a {
-  font-weight: bold;
+section.Projects > div > div > a:first-of-type {
+  color: #ffffff;
+  background: #2f80ed;
 }
-
-
+section.Blog {
+  border-radius: 12px;
+}
+section.Blog > div {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 36px;
+  clear: both;
+  overflow: auto;
+}
+section.Blog > div > h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 26px;
+}
+section.Blog > div > p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #828282;
+  margin-bottom: 21px;
+}
+section.Blog > div > a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #2f80ed;
+}
+section.Blog > div > img {
+  float: right;
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+section.Blog > h1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  background-color: #ffffff;
+  color: #4f4f4f;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+footer {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+}
+@media (min-width: 769px) {
+  div.Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 32px;
+  }
+  section.Me {
+    grid-column: span 2;
+  }
+  section.Skills {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  section.Projects {
+    grid-column: span 2;
+  }
+  section.Hobbies {
+    grid-row: span 3;
+  }
+}
+@media (max-width: 769px) {
+  div.Container {
+    display: grid;
+  }
+  section.Me > img.Me {
+    width: 150px;
+    float: none;
+  }
+  section.Me > div:first-of-type,
+  section.Projects > div {
+    flex-direction: column;
+  }
+  section.Projects > div > div {
+    width: auto;
+    margin-bottom: 32px;
+  }
+  section.Blog > div > p {
+    clear: both;
+    padding-top: 32px;
+  }
+  section.Blog > div > h2 {
+    margin-bottom: 0px;
+  }
+  section.Me > div > div.Title {
+    margin-bottom: 10px;
+  }
+  section.Me > div > div.Contact > p {
+    margin-bottom: 5px;
+  }
+  section.Me > div.About {
+    margin: 16px 0px 16px 0;
+  }
+}
+p.Color {
+  background-color: #2f80ed !important;
+  color: #ffffff !important;
+}
+progress {
+  margin-left: 10px;
+}
